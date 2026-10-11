@@ -204,3 +204,6 @@ input:focus-visible, textarea:focus-visible, select:focus-visible { outline: 3px
 .illus { margin: 0; }
 .illus img { width: 100%; height: auto; border-radius: 28px; border: 1px solid var(--line); }
 .illus figcaption { color: var(--muted); font-size: 0.95rem; margin: 14px 4px 0; max-width: 46em; }
+
+/* pillar pictures (home) */
+.pillar-pic { width: 100%; height: auto; border-radius: 20px; margin: 0 0 22px; }

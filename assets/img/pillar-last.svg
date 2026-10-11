@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" role="img" aria-labelledby="t"><title id="t">A system kept online and backed up every day</title>
+<rect width="480" height="300" rx="24" fill="#0d2a20"/>
+<rect x="28" y="28" width="196" height="244" rx="16" fill="#123629" stroke="rgba(244,240,230,.16)" stroke-width="2"/>
+<rect x="48" y="48" width="112" height="30" rx="15" fill="#d8ff3e"/><circle cx="66" cy="63" r="6" fill="#071f17"/><text x="80" y="69" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="700" fill="#071f17">ONLINE</text>
+<g fill="#1c4535"><rect x="48" y="100" width="156" height="40" rx="10"/><rect x="48" y="152" width="156" height="40" rx="10"/><rect x="48" y="204" width="156" height="40" rx="10"/></g>
+<g fill="#d8ff3e"><circle cx="68" cy="120" r="6"/><circle cx="68" cy="172" r="6"/><circle cx="68" cy="224" r="6"/></g>
+<g fill="#2c5a47"><rect x="84" y="115" width="96" height="10" rx="5"/><rect x="84" y="167" width="72" height="10" rx="5"/><rect x="84" y="219" width="104" height="10" rx="5"/></g>
+<path d="M236 150h44" stroke="#d8ff3e" stroke-width="4" stroke-linecap="round"/><path d="M276 140l14 10-14 10z" fill="#d8ff3e"/>
+<g fill="none" stroke="#d8ff3e" stroke-width="5"><ellipse cx="370" cy="96" rx="58" ry="20"/><path d="M312 96v104c0 11 26 20 58 20s58-9 58-20V96"/><path d="M312 148c0 11 26 20 58 20s58-9 58-20"/></g>
+<path d="M346 198l16 16 30-34" stroke="#f4f0e6" stroke-width="7" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="370" y="266" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="700" fill="#f4f0e6">Backed up daily</text>
+</svg>
