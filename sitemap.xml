@@ -3,6 +3,8 @@
   <url>
     <loc>https://extracare.ng/</loc>
     <lastmod>2026-10-11</lastmod>
+    <image:image><image:loc>https://extracare.ng/assets/img/pillar-found.svg</image:loc></image:image>
+    <image:image><image:loc>https://extracare.ng/assets/img/pillar-last.svg</image:loc></image:image>
     <image:image><image:loc>https://extracare.ng/assets/img/screens/dashboard-800.jpg</image:loc></image:image>
     <image:image><image:loc>https://extracare.ng/assets/img/screens/report-workflow-800.jpg</image:loc></image:image>
     <image:image><image:loc>https://extracare.ng/assets/img/screens/reports-800.jpg</image:loc></image:image>
@@ -10,18 +12,24 @@
   <url>
     <loc>https://extracare.ng/services.html</loc>
     <lastmod>2026-10-11</lastmod>
+    <image:image><image:loc>https://extracare.ng/assets/img/services.svg</image:loc></image:image>
   </url>
   <url>
     <loc>https://extracare.ng/websites.html</loc>
     <lastmod>2026-10-11</lastmod>
+    <image:image><image:loc>https://extracare.ng/assets/img/websites.svg</image:loc></image:image>
   </url>
   <url>
     <loc>https://extracare.ng/web-apps.html</loc>
     <lastmod>2026-10-11</lastmod>
+    <image:image><image:loc>https://extracare.ng/assets/img/screens/finance-800.jpg</image:loc></image:image>
+    <image:image><image:loc>https://extracare.ng/assets/img/screens/reports-800.jpg</image:loc></image:image>
+    <image:image><image:loc>https://extracare.ng/assets/img/screens/menu-800.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://extracare.ng/mobile-apps.html</loc>
     <lastmod>2026-10-11</lastmod>
+    <image:image><image:loc>https://extracare.ng/assets/img/mobile-apps.svg</image:loc></image:image>
   </url>
   <url>
     <loc>https://extracare.ng/seo.html</loc>
@@ -46,14 +54,19 @@
   <url>
     <loc>https://extracare.ng/schools.html</loc>
     <lastmod>2026-10-11</lastmod>
+    <image:image><image:loc>https://extracare.ng/assets/img/screens/dashboard-800.jpg</image:loc></image:image>
+    <image:image><image:loc>https://extracare.ng/assets/img/screens/report-workflow-800.jpg</image:loc></image:image>
+    <image:image><image:loc>https://extracare.ng/assets/img/screens/live-classes-800.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://extracare.ng/businesses.html</loc>
     <lastmod>2026-10-11</lastmod>
+    <image:image><image:loc>https://extracare.ng/assets/img/businesses.svg</image:loc></image:image>
   </url>
   <url>
     <loc>https://extracare.ng/hospitals.html</loc>
     <lastmod>2026-10-11</lastmod>
+    <image:image><image:loc>https://extracare.ng/assets/img/hospitals.svg</image:loc></image:image>
   </url>
   <url>
     <loc>https://extracare.ng/work.html</loc>
@@ -65,17 +78,21 @@
   <url>
     <loc>https://extracare.ng/how-we-work.html</loc>
     <lastmod>2026-10-11</lastmod>
+    <image:image><image:loc>https://extracare.ng/assets/img/pillar-taste.svg</image:loc></image:image>
   </url>
   <url>
     <loc>https://extracare.ng/technology.html</loc>
     <lastmod>2026-10-11</lastmod>
+    <image:image><image:loc>https://extracare.ng/assets/img/technology.svg</image:loc></image:image>
   </url>
   <url>
     <loc>https://extracare.ng/about.html</loc>
     <lastmod>2026-10-11</lastmod>
+    <image:image><image:loc>https://extracare.ng/assets/img/about.svg</image:loc></image:image>
   </url>
   <url>
     <loc>https://extracare.ng/contact.html</loc>
     <lastmod>2026-10-11</lastmod>
+    <image:image><image:loc>https://extracare.ng/assets/img/contact.svg</image:loc></image:image>
   </url>
 </urlset>
