@@ -24,9 +24,10 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/css/style.css?v=3">
+<link rel="stylesheet" href="assets/css/style.css?v=5">
 </head>
 <body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id="i-circle-alert" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" /> <line x1="12" x2="12" y1="8" y2="12" /> <line x1="12" x2="12.01" y1="16" y2="16" /></symbol><symbol id="i-blocks" viewBox="0 0 24 24"><path d="M10 22V7a1 1 0 0 0-1-1H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-5a1 1 0 0 0-1-1H2" /> <rect x="14" y="2" width="8" height="8" rx="1" /></symbol><symbol id="i-code" viewBox="0 0 24 24"><path d="m16 18 6-6-6-6" /> <path d="m8 6-6 6 6 6" /></symbol><symbol id="i-shield-check" viewBox="0 0 24 24"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" /> <path d="m9 12 2 2 4-4" /></symbol><symbol id="i-database" viewBox="0 0 24 24"><ellipse cx="12" cy="5" rx="9" ry="3" /> <path d="M3 5V19A9 3 0 0 0 21 19V5" /> <path d="M3 12A9 3 0 0 0 21 12" /></symbol><symbol id="i-circle-check" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" /> <path d="m16 9-5.5 5.5L8 12" /></symbol><symbol id="i-user-cog" viewBox="0 0 24 24"><path d="M10 15H6a4 4 0 0 0-4 4v2" /> <path d="m14.305 16.53.923-.382" /> <path d="m15.228 13.852-.923-.383" /> <path d="m16.852 12.228-.383-.923" /> <path d="m16.852 17.772-.383.924" /> <path d="m19.148 12.228.383-.923" /> <path d="m19.53 18.696-.382-.924" /> <path d="m20.772 13.852.924-.383" /> <path d="m20.772 16.148.924.383" /> <circle cx="18" cy="15" r="3" /> <circle cx="9" cy="7" r="4" /></symbol><symbol id="i-git-branch" viewBox="0 0 24 24"><path d="M15 6a9 9 0 0 0-9 9V3" /> <circle cx="18" cy="6" r="3" /> <circle cx="6" cy="18" r="3" /></symbol></svg>
 <a class="skip" href="#main">Skip to content</a>
 <header class="wrap site-head">
   <a class="brand" href="index.html" aria-label="ExtraCare home"><b>EXTRA</b>CARE</a>
@@ -84,20 +85,20 @@
   </section>
 
   <section class="wrap sec" aria-label="Details">
-    <div class="rows" style="margin-top:0">
-      <div class="row"><h2>The problem</h2><div><p>Schools run on paper, spreadsheets and WhatsApp. Results arrive late, fees are chased by hand and parents hear too little.</p></div></div>
-      <div class="row"><h2>What we built</h2><div><ul class="ticks"><li>Report cards for every class and term</li><li>CBT exams taken on screen</li><li>Attendance for students and staff</li><li>Fees and payments</li><li>Live classes</li><li>SMS and messages to parents and staff</li><li>Timetables and subjects for each class level</li><li>School transport and library</li><li>Leave requests and staff records</li><li>Roles and permissions for every kind of user</li></ul></div></div>
-      <div class="row"><h2>How it is built</h2><div><p>A Python and FastAPI backend, a PostgreSQL database and a Next.js and React front end, designed so every role gets its own view.</p><p><a class="more" href="technology.html">What each tool does for you</a></p></div></div>
-      <div class="row"><h2>How we look after it</h2><div><ul class="ticks"><li>Every change is tested before it goes live</li><li>Database changes are tracked and repeatable</li><li>When we move a live database, we compare every table and row count before switching</li><li>Your data is backed up</li></ul></div></div>
+    <div class="rows cards cols-2" style="margin-top:0">
+      <div class="row"><span class="ico-chip" aria-hidden="true"><svg class="ico"><use href="#i-circle-alert"/></svg></span><h2>The problem</h2><div><p>Schools run on paper, spreadsheets and WhatsApp. Results arrive late, fees are chased by hand and parents hear too little.</p></div></div>
+      <div class="row"><span class="ico-chip" aria-hidden="true"><svg class="ico"><use href="#i-blocks"/></svg></span><h2>What we built</h2><div><ul class="ticks"><li>Report cards for every class and term</li><li>CBT exams taken on screen</li><li>Attendance for students and staff</li><li>Fees and payments</li><li>Live classes</li><li>SMS and messages to parents and staff</li><li>Timetables and subjects for each class level</li><li>School transport and library</li><li>Leave requests and staff records</li><li>Roles and permissions for every kind of user</li></ul></div></div>
+      <div class="row"><span class="ico-chip" aria-hidden="true"><svg class="ico"><use href="#i-code"/></svg></span><h2>How it is built</h2><div><p>A Python and FastAPI backend, a PostgreSQL database and a Next.js and React front end, designed so every role gets its own view.</p><p><a class="more" href="technology.html">What each tool does for you</a></p></div></div>
+      <div class="row"><span class="ico-chip" aria-hidden="true"><svg class="ico"><use href="#i-shield-check"/></svg></span><h2>How we look after it</h2><div><ul class="ticks"><li>Every change is tested before it goes live</li><li>Database changes are tracked and repeatable</li><li>When we move a live database, we compare every table and row count before switching</li><li>Your data is backed up</li></ul></div></div>
     </div>
   </section>
   <section class="wrap sec" aria-labelledby="num-title">
     <h2 class="sec-title" id="num-title">Built carefully, not quickly.</h2>
     <div class="aud-grid num-grid">
-      <div class="aud"><h3>270+</h3><p>database tables behind the school system</p></div>
-      <div class="aud"><h3>1,900+</h3><p>automated tests that run before changes go live</p></div>
-      <div class="aud"><h3>45</h3><p>ready-made staff roles, each seeing only what its job needs</p></div>
-      <div class="aud"><h3>130+</h3><p>tracked database upgrades, each one recorded and repeatable</p></div>
+      <div class="aud"><span class="ico-chip" aria-hidden="true"><svg class="ico"><use href="#i-database"/></svg></span><h3>270+</h3><p>database tables behind the school system</p></div>
+      <div class="aud"><span class="ico-chip" aria-hidden="true"><svg class="ico"><use href="#i-circle-check"/></svg></span><h3>1,900+</h3><p>automated tests that run before changes go live</p></div>
+      <div class="aud"><span class="ico-chip" aria-hidden="true"><svg class="ico"><use href="#i-user-cog"/></svg></span><h3>45</h3><p>ready-made staff roles, each seeing only what its job needs</p></div>
+      <div class="aud"><span class="ico-chip" aria-hidden="true"><svg class="ico"><use href="#i-git-branch"/></svg></span><h3>130+</h3><p>tracked database upgrades, each one recorded and repeatable</p></div>
     </div>
   </section>
   <section class="wrap sec" aria-label="Keep exploring">

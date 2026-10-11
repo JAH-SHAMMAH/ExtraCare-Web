@@ -24,9 +24,10 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/css/style.css?v=3">
+<link rel="stylesheet" href="assets/css/style.css?v=5">
 </head>
 <body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id="i-palette" viewBox="0 0 24 24"><path d="M12 22a1 1 0 0 1 0-20 10 9 0 0 1 10 9 5 5 0 0 1-5 5h-2.25a1.75 1.75 0 0 0-1.4 2.8l.3.4a1.75 1.75 0 0 1-1.4 2.8z" /> <circle cx="13.5" cy="6.5" r=".5" fill="currentColor" /> <circle cx="17.5" cy="10.5" r=".5" fill="currentColor" /> <circle cx="6.5" cy="12.5" r=".5" fill="currentColor" /> <circle cx="8.5" cy="7.5" r=".5" fill="currentColor" /></symbol><symbol id="i-workflow" viewBox="0 0 24 24"><rect width="8" height="8" x="3" y="3" rx="2" /> <path d="M7 11v4a2 2 0 0 0 2 2h4" /> <rect width="8" height="8" x="13" y="13" rx="2" /></symbol><symbol id="i-sliders-horizontal" viewBox="0 0 24 24"><path d="M10 5H3" /> <path d="M12 19H3" /> <path d="M14 3v4" /> <path d="M16 17v4" /> <path d="M21 12h-9" /> <path d="M21 19h-5" /> <path d="M21 5h-7" /> <path d="M8 10v4" /> <path d="M8 12H3" /></symbol><symbol id="i-message-square-text" viewBox="0 0 24 24"><path d="M22 17a2 2 0 0 1-2 2H6.828a2 2 0 0 0-1.414.586l-2.202 2.202A.71.71 0 0 1 2 21.286V5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2z" /> <path d="M7 11h10" /> <path d="M7 15h6" /> <path d="M7 7h8" /></symbol><symbol id="i-message-circle" viewBox="0 0 24 24"><path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719" /></symbol><symbol id="i-pen-tool" viewBox="0 0 24 24"><path d="m18 13-.654-4.736a4 4 0 00-2.756-3.266l-9.163-2.9a2 2 0 00-2.017.493l-.82.819a2 2 0 00-.492 2.017l2.9 9.163a4 4 0 003.266 2.756L13 18" /> <path d="M18.648 12.352a1.205 1.205 0 011.704 0l1.296 1.296a1.205 1.205 0 010 1.704l-6.296 6.296a1.205 1.205 0 01-1.704 0l-1.296-1.296a1.205 1.205 0 010-1.704z" /> <path d="m3 3 6.586 6.586" /> <circle cx="11" cy="11" r="2" /></symbol><symbol id="i-code" viewBox="0 0 24 24"><path d="m16 18 6-6-6-6" /> <path d="m8 6-6 6 6 6" /></symbol><symbol id="i-rocket" viewBox="0 0 24 24"><path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5" /> <path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09" /> <path d="M9 12a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.4 22.4 0 0 1-4 2z" /> <path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 .05 5 .05" /></symbol></svg>
 <a class="skip" href="#main">Skip to content</a>
 <header class="wrap site-head">
   <a class="brand" href="index.html" aria-label="ExtraCare home"><b>EXTRA</b>CARE</a>
@@ -56,24 +57,24 @@
   </section>
 
   <section class="wrap sec" aria-label="Details">
-    <div class="rows" style="margin-top:0">
-      <div class="row"><h2>Your look</h2><div><p>We design around your brand, so the site or app looks like you, not like everyone else.</p></div></div>
-      <div class="row"><h2>Your workflow</h2><div><p>We learn how your team actually works first, then build the software around it, not the other way round.</p></div></div>
-      <div class="row"><h2>Your rules</h2><div><p>Who can see what, who approves what, how fees or bookings work: your policies become the rules of the system.</p></div></div>
+    <div class="rows cards cols-3" style="margin-top:0">
+      <div class="row"><span class="ico-chip" aria-hidden="true"><svg class="ico"><use href="#i-palette"/></svg></span><h2>Your look</h2><div><p>We design around your brand, so the site or app looks like you, not like everyone else.</p></div></div>
+      <div class="row"><span class="ico-chip" aria-hidden="true"><svg class="ico"><use href="#i-workflow"/></svg></span><h2>Your workflow</h2><div><p>We learn how your team actually works first, then build the software around it, not the other way round.</p></div></div>
+      <div class="row"><span class="ico-chip" aria-hidden="true"><svg class="ico"><use href="#i-sliders-horizontal"/></svg></span><h2>Your rules</h2><div><p>Who can see what, who approves what, how fees or bookings work: your policies become the rules of the system.</p></div></div>
     </div>
   </section>
   <section class="wrap sec" aria-labelledby="process-title">
     <h2 class="sec-title" id="process-title">How we work</h2>
     <ol class="step-list">
-      <li><h3>You tell us what you need</h3><p>Message us on WhatsApp. We ask a few questions, then send a clear plan and price.</p></li>
-      <li><h3>We design it with you</h3><p>You see the look and the workflow before we build the final thing.</p></li>
-      <li><h3>We build and test</h3><p>On real phones and with real data, including the pages people will search for.</p></li>
-      <li><h3>We launch and keep caring</h3><p>Hosting, fixes, upgrades and scaling stay with us.</p></li>
+      <li><span class="ico-chip" aria-hidden="true"><svg class="ico"><use href="#i-message-circle"/></svg></span><h3>You tell us what you need</h3><p>Message us on WhatsApp. We ask a few questions, then send a clear plan and price.</p></li>
+      <li><span class="ico-chip" aria-hidden="true"><svg class="ico"><use href="#i-pen-tool"/></svg></span><h3>We design it with you</h3><p>You see the look and the workflow before we build the final thing.</p></li>
+      <li><span class="ico-chip" aria-hidden="true"><svg class="ico"><use href="#i-code"/></svg></span><h3>We build and test</h3><p>On real phones and with real data, including the pages people will search for.</p></li>
+      <li><span class="ico-chip" aria-hidden="true"><svg class="ico"><use href="#i-rocket"/></svg></span><h3>We launch and keep caring</h3><p>Hosting, fixes, upgrades and scaling stay with us.</p></li>
     </ol>
   </section>
   <section class="wrap sec" aria-label="Details">
-    <div class="rows" style="margin-top:0">
-      <div class="row"><h2>What we ask from you</h2><div><ul class="ticks"><li>Your logo and brand colours, if you have them</li><li>Your content, such as text and photos, or help to write it</li><li>One person who can make decisions for you</li><li>Honest feedback early, so we can fix things before they cost more</li></ul></div></div>
+    <div class="rows cards cols-3" style="margin-top:0">
+      <div class="row"><span class="ico-chip" aria-hidden="true"><svg class="ico"><use href="#i-message-square-text"/></svg></span><h2>What we ask from you</h2><div><ul class="ticks"><li>Your logo and brand colours, if you have them</li><li>Your content, such as text and photos, or help to write it</li><li>One person who can make decisions for you</li><li>Honest feedback early, so we can fix things before they cost more</li></ul></div></div>
     </div>
   </section>
   <section class="wrap sec" aria-label="Keep exploring">

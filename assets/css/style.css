@@ -207,3 +207,36 @@ input:focus-visible, textarea:focus-visible, select:focus-visible { outline: 3px
 
 /* pillar pictures (home) */
 .pillar-pic { width: 100%; height: auto; border-radius: 20px; margin: 0 0 22px; }
+
+/* icons (Lucide, ISC licence: see assets/img/ICONS-LICENSE.txt) */
+.ico { width: 26px; height: 26px; fill: none; stroke: currentColor; stroke-width: 1.75; stroke-linecap: round; stroke-linejoin: round; display: block; }
+.ico-chip { display: inline-flex; align-items: center; justify-content: center; width: 54px; height: 54px; border-radius: 16px; background: rgba(216, 255, 62, 0.1); border: 1px solid rgba(216, 255, 62, 0.28); color: var(--lime); margin-bottom: 18px; flex: none; }
+
+/* feature cards */
+.rows.cards { border-bottom: 0; display: grid; gap: 20px; }
+.rows.cards.cols-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.rows.cards.cols-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.rows.cards .row { display: block; border: 1px solid var(--line); border-radius: 24px; background: var(--panel); padding: clamp(24px, 3vw, 34px); transition: border-color .2s ease, transform .2s ease; }
+.rows.cards .row:hover { border-color: rgba(216, 255, 62, 0.45); transform: translateY(-3px); }
+.rows.cards .row h2, .rows.cards .row h3 { font-size: clamp(1.3rem, 2vw, 1.6rem); line-height: 1.15; margin-bottom: 10px; }
+.rows.cards .row p { max-width: none; }
+.rows.cards .ticks { margin-top: 6px; }
+
+/* audience and number cards */
+.aud { border: 1px solid var(--line); border-radius: 24px; background: var(--panel); padding: clamp(22px, 3vw, 30px); }
+.num-grid .aud .ico-chip { width: 44px; height: 44px; border-radius: 13px; margin-bottom: 14px; }
+.num-grid .aud .ico { width: 22px; height: 22px; }
+
+/* steps: icon beside the number */
+.step-list li { position: relative; }
+.step-list li .ico-chip { position: absolute; right: 0; top: 18px; width: 46px; height: 46px; border-radius: 14px; margin: 0; }
+.step-list li .ico { width: 22px; height: 22px; }
+
+@media (max-width: 1000px) { .rows.cards.cols-3 { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 640px) {
+  .rows.cards.cols-2, .rows.cards.cols-3 { grid-template-columns: 1fr; }
+  .rows.cards .row:hover { transform: none; }
+}
+@media (prefers-reduced-motion: reduce) { .rows.cards .row { transition: none; } .rows.cards .row:hover { transform: none; } }
+
+.wrap.stack { margin-left: auto; margin-right: auto; }

@@ -32,6 +32,12 @@ Shared files: `assets/css/style.css`, `assets/js/main.js`, `favicon.svg`, and im
 - `social-card.jpg`: the 1200 x 630 picture shown when a page is shared on WhatsApp, Facebook, LinkedIn or X
 - `dashboard.jpg`: the desktop dashboard screenshot
 
+## Icons
+
+Feature icons come from Lucide (ISC licence, see `assets/img/ICONS-LICENSE.txt`). Each page carries only the icons it uses, in a hidden `<svg>` right after `<body>`. To add one, copy its file from lucide.dev into a new `<symbol id="i-NAME" viewBox="0 0 24 24">` there, then use `<span class="ico-chip" aria-hidden="true"><svg class="ico"><use href="#i-NAME"/></svg></span>` before a heading.
+
+After changing `style.css`, raise the `?v=` number on its link in every page so phones fetch the new copy.
+
 ## Run it on your computer
 
 Open `index.html` in a browser, or from this folder run:
