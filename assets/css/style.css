@@ -17,7 +17,7 @@ body {
   font-family: var(--body); font-size: 1.0625rem; line-height: 1.6;
   -webkit-font-smoothing: antialiased;
 }
-img { max-width: 100%; display: block; }
+img { max-width: 100%; height: auto; display: block; }
 a { color: inherit; }
 :focus-visible { outline: 3px solid var(--lime); outline-offset: 3px; border-radius: 4px; }
 .skip { position: absolute; left: -999px; top: 8px; background: var(--lime); color: #09160f; padding: 10px 16px; border-radius: 8px; z-index: 10; font-weight: 600; }
