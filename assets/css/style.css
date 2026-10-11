@@ -184,3 +184,23 @@ input:focus-visible, textarea:focus-visible, select:focus-visible { outline: 3px
   .js .nav.open { display: flex; }
   .nav { flex-wrap: wrap; gap: 14px 22px; }
 }
+
+/* phone screenshot gallery */
+.phones { list-style: none; padding: 0; margin: clamp(32px, 5vw, 56px) 0 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: clamp(24px, 3vw, 40px); }
+.phone { margin: 0; }
+.phone-frame { background: #0a1a14; border: 1px solid var(--line); border-radius: 34px; padding: 10px; box-shadow: 0 24px 60px rgba(0,0,0,0.35); }
+.phone-frame img { width: 100%; height: auto; border-radius: 26px; background: #f5f7f9; }
+.phone figcaption { margin-top: 18px; }
+.phone h3 { font-family: var(--display); font-weight: 700; font-size: 1.35rem; letter-spacing: -0.015em; line-height: 1.15; margin: 0 0 6px; }
+.phone p { margin: 0; color: var(--muted); font-size: 1rem; }
+.phones-note { margin: 28px 0 0; color: var(--muted); font-size: 0.92rem; }
+.phones-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+@media (max-width: 900px) {
+  .phones { grid-template-columns: none; grid-auto-flow: column; grid-auto-columns: min(72vw, 300px); overflow-x: auto; scroll-snap-type: x mandatory; padding-bottom: 12px; margin-right: calc(-1 * var(--pad)); padding-right: var(--pad); }
+  .phone { scroll-snap-align: start; }
+}
+
+/* explainer illustrations */
+.illus { margin: 0; }
+.illus img { width: 100%; height: auto; border-radius: 28px; border: 1px solid var(--line); }
+.illus figcaption { color: var(--muted); font-size: 0.95rem; margin: 14px 4px 0; max-width: 46em; }

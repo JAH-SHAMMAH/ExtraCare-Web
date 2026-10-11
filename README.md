@@ -25,7 +25,12 @@ Plain HTML, CSS and a little JavaScript. There is no build step and nothing to i
 | `contact.html` | Contact form (opens WhatsApp with the message ready) |
 | `404.html` | Page not found |
 
-Shared files: `assets/css/style.css`, `assets/js/main.js`, `assets/img/dashboard.jpg`, `favicon.svg`.
+Shared files: `assets/css/style.css`, `assets/js/main.js`, `favicon.svg`, and images in `assets/img/`:
+
+- `screens/`: real phone screenshots of the school portal, each saved at 400 and 800 pixels wide as WebP and JPEG
+- `built-to-last.svg` and `built-to-be-found.svg`: the illustrations on the hosting and SEO pages
+- `social-card.jpg`: the 1200 x 630 picture shown when a page is shared on WhatsApp, Facebook, LinkedIn or X
+- `dashboard.jpg`: the desktop dashboard screenshot
 
 ## Run it on your computer
 
@@ -44,11 +49,15 @@ then visit http://localhost:8000.
 - **Colours:** the variables at the top of `assets/css/style.css`.
 - **Dashboard screenshot:** replace `assets/img/dashboard.jpg` with another image of the same shape (936 x 396). It currently shows demo data only.
 
-## Before you go live with a domain
+## Domain and search
 
-1. In `sitemap.xml`, replace `YOUR-DOMAIN` with your real domain (for example `extracare.ng`).
-2. Add this line to `robots.txt`: `Sitemap: https://YOUR-DOMAIN/sitemap.xml`
-3. Submit the sitemap in Google Search Console.
+Every page, the sitemap and `robots.txt` point to `https://extracare.ng`. If the domain changes, search all files for `extracare.ng` and replace it.
+
+After the site is live on the domain, add it to Google Search Console and submit `https://extracare.ng/sitemap.xml`.
+
+## Adding a new phone screenshot
+
+Crop off the phone's status bar, blur any names or email addresses, then save it at 400 and 800 pixels wide as both `.webp` and `.jpg` in `assets/img/screens/`. Copy one of the existing `<li>` blocks in `school-system.html` and change the file names, heading, text and `alt`.
 
 ## Deploy for free
 
