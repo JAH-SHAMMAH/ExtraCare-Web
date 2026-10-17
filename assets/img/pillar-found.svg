@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" role="img" aria-labelledby="t"><title id="t">A search for a school system in Abuja with an ExtraCare result highlighted</title>
-<rect width="480" height="300" rx="24" fill="#0d2a20"/>
+<rect width="480" height="300" rx="24" fill="#131318"/>
 <rect x="28" y="28" width="424" height="52" rx="26" fill="#f4f0e6"/>
-<circle cx="60" cy="54" r="10" fill="none" stroke="#3d5a4d" stroke-width="3"/><path d="M67 61l9 9" stroke="#3d5a4d" stroke-width="3" stroke-linecap="round"/>
-<text x="88" y="62" font-family="Arial,Helvetica,sans-serif" font-size="21" fill="#1d2b25">school system Abuja</text>
-<rect x="28" y="100" width="424" height="104" rx="16" fill="#f4f0e6" stroke="#d8ff3e" stroke-width="4"/>
-<text x="50" y="132" font-family="Arial,Helvetica,sans-serif" font-size="17" fill="#3d5a4d">extracare.ng</text>
-<text x="50" y="164" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" fill="#0b5a3a">School management system</text>
+<circle cx="60" cy="54" r="10" fill="none" stroke="#45454f" stroke-width="3"/><path d="M67 61l9 9" stroke="#45454f" stroke-width="3" stroke-linecap="round"/>
+<text x="88" y="62" font-family="Arial,Helvetica,sans-serif" font-size="21" fill="#1b1b21">school system Abuja</text>
+<rect x="28" y="100" width="424" height="104" rx="16" fill="#f4f0e6" stroke="#a78bfa" stroke-width="4"/>
+<text x="50" y="132" font-family="Arial,Helvetica,sans-serif" font-size="17" fill="#45454f">extracare.ng</text>
+<text x="50" y="164" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" fill="#6d4fd8">School management system</text>
 <rect x="50" y="180" width="300" height="10" rx="5" fill="#d9d4c6"/>
-<g fill="#244638"><rect x="28" y="226" width="300" height="14" rx="7"/><rect x="28" y="252" width="380" height="10" rx="5"/><rect x="28" y="272" width="240" height="10" rx="5"/></g>
-<path d="M404 168l0 46 12-12 9 20 9-4-9-19 17 0z" fill="#d8ff3e" stroke="#071f17" stroke-width="2.5" stroke-linejoin="round"/>
+<g fill="#2a2a33"><rect x="28" y="226" width="300" height="14" rx="7"/><rect x="28" y="252" width="380" height="10" rx="5"/><rect x="28" y="272" width="240" height="10" rx="5"/></g>
+<path d="M404 168l0 46 12-12 9 20 9-4-9-19 17 0z" fill="#a78bfa" stroke="#0b0b0e" stroke-width="2.5" stroke-linejoin="round"/>
 </svg>

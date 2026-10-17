@@ -3,26 +3,26 @@
   <desc id="d">A search for a school management system in Abuja. The ExtraCare result sits at the top, and labels point out what makes it findable: a clear page title, a helpful description, a page that loads fast on a phone, and a sitemap that lists every page for search engines.</desc>
   <defs>
     <style>
-      .q{font:400 17px Arial,Helvetica,sans-serif;fill:#1d2b25}
-      .u{font:400 14px Arial,Helvetica,sans-serif;fill:#3d5a4d}
-      .ti{font:700 21px Arial,Helvetica,sans-serif;fill:#0b5a3a}
-      .ds{font:400 15px Arial,Helvetica,sans-serif;fill:#45524c}
+      .q{font:400 17px Arial,Helvetica,sans-serif;fill:#1b1b21}
+      .u{font:400 14px Arial,Helvetica,sans-serif;fill:#45454f}
+      .ti{font:700 21px Arial,Helvetica,sans-serif;fill:#6d4fd8}
+      .ds{font:400 15px Arial,Helvetica,sans-serif;fill:#4a4a54}
       .lb{font:700 15px Arial,Helvetica,sans-serif;fill:#f4f0e6}
-      .ls{font:400 13px Arial,Helvetica,sans-serif;fill:#b4c3b9}
-      .ln{stroke:#d8ff3e;stroke-width:2.5;fill:none}
+      .ls{font:400 13px Arial,Helvetica,sans-serif;fill:#a1a1aa}
+      .ln{stroke:#a78bfa;stroke-width:2.5;fill:none}
     </style>
   </defs>
-  <rect width="960" height="560" rx="28" fill="#071f17"/>
+  <rect width="960" height="560" rx="28" fill="#0b0b0e"/>
 
   <!-- results page -->
   <rect x="40" y="40" width="580" height="480" rx="20" fill="#f4f0e6"/>
   <rect x="64" y="64" width="532" height="50" rx="25" fill="#ffffff" stroke="#d9d4c6" stroke-width="1.5"/>
-  <circle cx="92" cy="89" r="8" fill="none" stroke="#3d5a4d" stroke-width="2.4"/><path d="M98 95l7 7" stroke="#3d5a4d" stroke-width="2.4" stroke-linecap="round"/>
+  <circle cx="92" cy="89" r="8" fill="none" stroke="#45454f" stroke-width="2.4"/><path d="M98 95l7 7" stroke="#45454f" stroke-width="2.4" stroke-linecap="round"/>
   <text class="q" x="118" y="95">school management system Abuja</text>
 
   <!-- top result -->
-  <rect x="58" y="134" width="544" height="150" rx="14" fill="#ffffff" stroke="#d8ff3e" stroke-width="3"/>
-  <rect x="78" y="154" width="28" height="28" rx="8" fill="#071f17"/><text x="83" y="174" font-family="Arial" font-weight="700" font-size="14" fill="#d8ff3e">EC</text>
+  <rect x="58" y="134" width="544" height="150" rx="14" fill="#ffffff" stroke="#a78bfa" stroke-width="3"/>
+  <rect x="78" y="154" width="28" height="28" rx="8" fill="#0b0b0e"/><text x="83" y="174" font-family="Arial" font-weight="700" font-size="14" fill="#a78bfa">EC</text>
   <text class="u" x="116" y="165">ExtraCare</text>
   <text class="u" x="116" y="183">extracare.ng › school-system</text>
   <text class="ti" x="78" y="216">School management system | ExtraCare</text>
@@ -36,19 +36,19 @@
   </g>
 
   <!-- annotations -->
-  <path class="ln" d="M500 210 H660"/><circle cx="500" cy="210" r="5" fill="#d8ff3e"/>
+  <path class="ln" d="M500 210 H660"/><circle cx="500" cy="210" r="5" fill="#a78bfa"/>
   <text class="lb" x="672" y="200">A clear page title</text>
   <text class="ls" x="672" y="220">Says what you do and where</text>
 
-  <path class="ln" d="M560 254 C610 254 610 290 660 290"/><circle cx="560" cy="254" r="5" fill="#d8ff3e"/>
+  <path class="ln" d="M560 254 C610 254 610 290 660 290"/><circle cx="560" cy="254" r="5" fill="#a78bfa"/>
   <text class="lb" x="672" y="282">A helpful description</text>
   <text class="ls" x="672" y="302">Gives people a reason to click</text>
 
   <!-- phone -->
   <g transform="translate(672 340)">
-    <rect width="66" height="120" rx="12" fill="#0d2a20" stroke="#d8ff3e" stroke-width="2.5"/>
-    <rect x="8" y="14" width="50" height="10" rx="4" fill="#d8ff3e"/>
-    <rect x="8" y="32" width="50" height="6" rx="3" fill="#2c4a3d"/><rect x="8" y="44" width="36" height="6" rx="3" fill="#2c4a3d"/><rect x="8" y="62" width="50" height="40" rx="6" fill="#123629"/>
+    <rect width="66" height="120" rx="12" fill="#131318" stroke="#a78bfa" stroke-width="2.5"/>
+    <rect x="8" y="14" width="50" height="10" rx="4" fill="#a78bfa"/>
+    <rect x="8" y="32" width="50" height="6" rx="3" fill="#2f2f38"/><rect x="8" y="44" width="36" height="6" rx="3" fill="#2f2f38"/><rect x="8" y="62" width="50" height="40" rx="6" fill="#17171d"/>
   </g>
   <text class="lb" x="752" y="370">Fast on a phone</text>
   <text class="ls" x="752" y="390">Most people search on one</text>
@@ -57,5 +57,5 @@
   <text class="ls" x="752" y="448">Lists every page so search</text>
   <text class="ls" x="752" y="466">engines read them all</text>
 
-  <text x="64" y="545" font-family="Arial" font-size="12" fill="#b4c3b9">Illustration of a search results page</text>
+  <text x="64" y="545" font-family="Arial" font-size="12" fill="#a1a1aa">Illustration of a search results page</text>
 </svg>
