@@ -95,4 +95,29 @@
     <lastmod>2026-10-11</lastmod>
     <image:image><image:loc>https://extracare.ng/assets/img/contact.svg</image:loc></image:image>
   </url>
+  <url>
+    <loc>https://extracare.ng/agriculture.html</loc>
+    <lastmod>2026-11-08</lastmod>
+    <image:image><image:loc>https://extracare.ng/assets/img/agriculture.svg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://extracare.ng/farms.html</loc>
+    <lastmod>2026-11-08</lastmod>
+    <image:image><image:loc>https://extracare.ng/assets/img/farms.svg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://extracare.ng/fisheries.html</loc>
+    <lastmod>2026-11-08</lastmod>
+    <image:image><image:loc>https://extracare.ng/assets/img/fisheries.svg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://extracare.ng/poultry.html</loc>
+    <lastmod>2026-11-08</lastmod>
+    <image:image><image:loc>https://extracare.ng/assets/img/poultry.svg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://extracare.ng/consulting.html</loc>
+    <lastmod>2026-11-08</lastmod>
+    <image:image><image:loc>https://extracare.ng/assets/img/consulting.svg</image:loc></image:image>
+  </url>
 </urlset>

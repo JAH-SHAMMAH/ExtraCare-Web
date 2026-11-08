@@ -20,6 +20,11 @@ Plain HTML, CSS and a little JavaScript. There is no build step and nothing to i
 | `schools.html` | Software for schools |
 | `businesses.html` | Software for businesses |
 | `hospitals.html` | Software for hospitals and clinics |
+| `agriculture.html` | Software for farms: hub for crop farms, fish farms and poultry |
+| `farms.html` | Software for crop farms |
+| `fisheries.html` | Software for fish farms |
+| `poultry.html` | Software for poultry farms |
+| `consulting.html` | Technology consulting |
 | `technology.html` | What we build with |
 | `about.html` | About ExtraCare |
 | `contact.html` | Contact form (opens WhatsApp with the message ready) |
@@ -29,6 +34,7 @@ Shared files: `assets/css/style.css`, `assets/js/main.js`, `favicon.svg`, and im
 
 - `screens/`: real phone screenshots of the school portal, each saved at 400 and 800 pixels wide as WebP and JPEG
 - `built-to-last.svg` and `built-to-be-found.svg`: the illustrations on the hosting and SEO pages
+- `agriculture.svg`, `farms.svg`, `fisheries.svg`, `poultry.svg`, `consulting.svg`: example screens for the farm pages and the consulting steps (all figures are examples)
 - `social-card.jpg`: the 1200 x 630 picture shown when a page is shared on WhatsApp, Facebook, LinkedIn or X
 - `dashboard.jpg`: the desktop dashboard screenshot
 
